@@ -18214,6 +18214,10 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.9rem 2.5rem;
 }
 
+.flowra a.extra-large {
+  transform: scale(1.5);
+}
+
 .flowra .ui-hero .heading {
   font-size: 5.5rem;
 }
@@ -18224,7 +18228,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .flowra .ui-hero .heading {
     font-size: 4rem;
   }
@@ -18234,7 +18238,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 2rem;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .flowra .ui-hero .paragraph {
     font-size: 1.3rem;
     padding-left: 1em;
@@ -18271,9 +18275,15 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 767px) {
+  .flowra .section .section-heading .heading.flowtime {
+    font-size: 5rem;
+  }
+}
+
 @media (max-width: 575px) {
   .flowra .section .section-heading .heading.flowtime {
-    font-size: 7rem;
+    font-size: 4rem;
   }
 }
 
@@ -18287,7 +18297,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   .flowra .section .section-heading .paragraph.flowtime {
     font-size: 2rem;
   }
@@ -18297,7 +18307,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 481px) {
   .flowra #benefits .block:not(:last-of-type) {
     margin-bottom: 3em;
   }
@@ -18317,6 +18327,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.8em;
   margin-bottom: 0.8em;
   font-size: 2.3rem;
+  white-space: nowrap;
 }
 
 .flowra #benefits p {
@@ -18324,4 +18335,28 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .flowra #steps .step-wrapper {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.flowra #pricing .card-body li {
+  color: #ccc;
+}
+
+.flowra #pricing .card-body li b {
+  color: #333;
+}
+
+.flowra #testimonials .ui-testimonials .ui-card p {
+  font-size: 1.5rem;
+}
+
+.flowra footer div.social a {
+  transform: scale(1.5);
+  margin: 0 1rem;
 }
