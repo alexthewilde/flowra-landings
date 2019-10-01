@@ -409,7 +409,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   line-height: 1.1;
   color: inherit;
@@ -13850,7 +13850,7 @@ body[data-fade_in="on-load"],
 }
 
 .ui-accordion .toggle {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   margin-bottom: 0;
   margin-top: 0;
@@ -13907,7 +13907,7 @@ body[data-fade_in="on-load"],
 * ----------------------------------------------------------------------- *
 */
 .btn {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline-block;
   font-size: .9rem;
   padding: .6rem 1.5rem;
@@ -13940,7 +13940,7 @@ body[data-fade_in="on-load"],
 }
 
 .btn-link {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   display: inline-block;
   font-size: .9rem;
   font-weight: 600;
@@ -14319,7 +14319,7 @@ body[data-fade_in="on-load"],
 
 .ui-footer ul.footer-nav li a {
   display: block;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: .95rem;
 }
@@ -14614,7 +14614,7 @@ body[data-fade_in="on-load"],
 @media (min-width: 768px) {
   .ui-hero .heading {
     margin-bottom: 1.25rem;
-    font-size: 7rem;
+    font-size: 3.6rem;
   }
 }
 
@@ -14753,7 +14753,7 @@ body[data-fade_in="on-load"],
 }
 
 .ui-hero .hero-price {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 1.6rem;
   vertical-align: middle;
@@ -15331,7 +15331,7 @@ body.modal-open {
   display: block;
   position: fixed;
   width: 100%;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   align-items: inherit;
   box-shadow: 0 5px 10px rgba(0, 9, 128, 0.035), 0 7px 18px rgba(0, 9, 128, 0.05);
   transition: box-shadow 0.35s ease-out, background-color 0.35s ease-out;
@@ -15735,7 +15735,6 @@ body.modal-open {
 }
 
 .section .section-heading .heading {
-  font-size: 4rem;
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -15943,7 +15942,7 @@ body.modal-open {
 * ----------------------------------------------------------------------- *
 */
 .ui-tabs .nav-tabs {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 2rem;
 }
 
@@ -16257,7 +16256,7 @@ body.modal-open {
   height: 30px;
   line-height: 30px;
   color: #fff;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
   text-align: center;
@@ -17281,7 +17280,7 @@ body.modal-open {
 }
 
 .ui-pricing-card .ui-card .card-header .price {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 1rem;
 }
 
@@ -17708,7 +17707,7 @@ body.coming-soon .ui-counter > div .label {
 .ui-pricing-table .pricing-block .promo {
   text-transform: uppercase;
   padding: 0 1rem;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -17727,12 +17726,12 @@ body.coming-soon .ui-counter > div .label {
 }
 
 .ui-pricing-table .pricing-block .pricing-header .price-plan {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
 
 .ui-pricing-table .pricing-block .pricing-header .price-wrapper {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
   font-size: 1.3rem;
   height: 46px;
@@ -17811,7 +17810,7 @@ body.coming-soon .ui-counter > div .label {
     z-index: 1;
   }
   .ui-pricing-table .pricing-block .pricing-header .price-plan {
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
   }
@@ -18007,7 +18006,7 @@ body.coming-soon .ui-counter > div .label {
 
 #ui-api-docs .docs-sidebar ul li a {
   color: #414c5a;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
 
@@ -18062,7 +18061,7 @@ body.coming-soon .ui-counter > div .label {
 
 #ui-api-docs .docs-article-links li a {
   display: block;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 600;
 }
 
@@ -18166,4 +18165,163 @@ body.coming-soon .ui-counter > div .label {
 .error404-page .main .error404-wrapper .heading {
   font-size: 3.6rem;
   margin: 2rem 0;
+}
+
+/**
+ * Hurme Geometric Sans 1
+ */
+@font-face {
+  font-family: 'HurmeGeometricSans1-Light';
+  src: url("./../../assets/fonts/HurmeGeometricSans1-Light.eot");
+  src: url("./../../assets/fonts/HurmeGeometricSans1-Light.woff2") format("woff2"), url("./../../assets/fonts/HurmeGeometricSans1-Light.woff") format("woff"), url("./../../assets/fonts/HurmeGeometricSans1-Light.ttf") format("truetype"), url("./../../assets/fonts/HurmeGeometricSans1-Light.svg#HurmeGeometricSans1-Light") format("svg"), url("./../../assets/fonts/HurmeGeometricSans1-Light.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HurmeGeometricSans1-Regular';
+  src: url("./../../assets/fonts/HurmeGeometricSans1-Regular.eot");
+  src: url("./../../assets/fonts/HurmeGeometricSans1-Regular.woff2") format("woff2"), url("./../../assets/fonts/HurmeGeometricSans1-Regular.woff") format("woff"), url("./../../assets/fonts/HurmeGeometricSans1-Regular.ttf") format("truetype"), url("./../../assets/fonts/HurmeGeometricSans1-Regular.svg#HurmeGeometricSans1-Regular") format("svg"), url("./../../assets/fonts/HurmeGeometricSans1-Regular.eot?#iefix") format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HurmeGeometricSans1-SemiBold';
+  src: url("./../../assets/fonts/HurmeGeometricSans1-SemiBold.eot");
+  src: url("./../../assets/fonts/HurmeGeometricSans1-SemiBold.woff2") format("woff2"), url("./../../assets/fonts/HurmeGeometricSans1-SemiBold.woff") format("woff"), url("./../../assets/fonts/HurmeGeometricSans1-SemiBold.ttf") format("truetype"), url("./../../assets/fonts/HurmeGeometricSans1-SemiBold.svg#HurmeGeometricSans1-SemiBold") format("svg"), url("./../../assets/fonts/HurmeGeometricSans1-SemiBold.eot?#iefix") format("embedded-opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HurmeGeometricSans1-Bold';
+  src: url("./../../assets/fonts/HurmeGeometricSans1-Bold.eot");
+  src: url("./../../assets/fonts/HurmeGeometricSans1-Bold.woff2") format("woff2"), url("./../../assets/fonts/HurmeGeometricSans1-Bold.woff") format("woff"), url("./../../assets/fonts/HurmeGeometricSans1-Bold.ttf") format("truetype"), url("./../../assets/fonts/HurmeGeometricSans1-Bold.svg#HurmeGeometricSans1-Bold") format("svg"), url("./../../assets/fonts/HurmeGeometricSans1-Bold.eot?#iefix") format("embedded-opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html {
+  font-feature-settings: "liga" 0, "clig" 0, "salt" 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-feature-settings: "salt", "ss04";
+}
+
+.flowra .btn:not(.no-padding) {
+  padding: 0.9rem 2.5rem;
+}
+
+.flowra .ui-hero .heading {
+  font-size: 5.5rem;
+}
+
+@media (max-width: 1199px) {
+  .flowra .ui-hero .heading {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .flowra .ui-hero .heading {
+    font-size: 4rem;
+  }
+}
+
+.flowra .ui-hero .paragraph {
+  font-size: 2rem;
+}
+
+@media (max-width: 575px) {
+  .flowra .ui-hero .paragraph {
+    font-size: 1.3rem;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+.flowra .section .section-heading .heading {
+  font-size: 4rem;
+}
+
+@media (max-width: 1199px) {
+  .flowra .section .section-heading .heading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .flowra .section .section-heading .heading {
+    font-size: 2rem;
+  }
+}
+
+.flowra .section .section-heading .heading.flowtime {
+  background: linear-gradient(to bottom right, #6666ff 0%, #ff66ff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 9rem;
+}
+
+@media (max-width: 1199px) {
+  .flowra .section .section-heading .heading.flowtime {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .flowra .section .section-heading .heading.flowtime {
+    font-size: 7rem;
+  }
+}
+
+.flowra .section .section-heading .paragraph.flowtime {
+  font-size: 2rem;
+}
+
+@media (max-width: 1199px) {
+  .flowra .section .section-heading .paragraph.flowtime {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .flowra .section .section-heading .paragraph.flowtime {
+    font-size: 2rem;
+  }
+}
+
+.flowra #benefits .block {
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .flowra #benefits .block:not(:last-of-type) {
+    margin-bottom: 3em;
+  }
+}
+
+.flowra #benefits img.persona {
+  width: 220px;
+  height: 220px;
+  line-height: 220px;
+  border-radius: 100%;
+  background-color: #FFF;
+  box-shadow: 0 7px 15px rgba(0, 9, 128, 0.05), 0 12px 28px rgba(0, 9, 128, 0.075);
+}
+
+.flowra #benefits h2.benefit {
+  font-family: 'HurmeGeometricSans1-SemiBold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+  font-size: 2.3rem;
+}
+
+.flowra #benefits p {
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  box-sizing: border-box;
 }
