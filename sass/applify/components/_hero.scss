@@ -52,12 +52,16 @@
 			padding: 8rem 0;
 		}
 		& .heading, & .paragraph {
-			@include media-breakpoint-down(sm){
+			// FLOWRA
+			// @include media-breakpoint-down(sm){
+			@include media-breakpoint-down(md){
 				margin-left: auto;
 				margin-right: auto;
 				text-align: center;
 			}
-			@include media-breakpoint-up(md) {
+			// FLOWRA
+			// @include media-breakpoint-up(md) {
+			@include media-breakpoint-up(lg) {
 				max-width: 500px;
 			}
 		}
@@ -131,7 +135,9 @@
 		@include media-breakpoint-up(sm) {
 			margin-top: 1.75rem;
 		}
-		@include media-breakpoint-up(md) {
+		// FLOWRA
+		// @include media-breakpoint-up(md) {
+		@include media-breakpoint-up(lg) {
 			margin-top: 2rem;
 			margin-bottom: 0;
 			text-align: left;

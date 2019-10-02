@@ -14526,7 +14526,7 @@ body[data-fade_in="on-load"],
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .ui-hero.hero-lg .heading, .ui-hero.hero-lg .paragraph {
     margin-left: auto;
     margin-right: auto;
@@ -14534,7 +14534,7 @@ body[data-fade_in="on-load"],
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .ui-hero.hero-lg .heading, .ui-hero.hero-lg .paragraph {
     max-width: 500px;
   }
@@ -14641,7 +14641,7 @@ body[data-fade_in="on-load"],
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .ui-hero .actions {
     margin-top: 2rem;
     margin-bottom: 0;
@@ -18214,8 +18214,26 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.9rem 2.5rem;
 }
 
-.flowra a.extra-large {
-  transform: scale(1.5);
+.flowra .btn:not(.no-padding).extra-large {
+  padding: 1.4rem 4.2rem;
+  font-size: 1.45em;
+  width: 400px;
+}
+
+@media (max-width: 767px) {
+  .flowra .btn:not(.no-padding).extra-large {
+    width: 400px;
+  }
+}
+
+@media (max-width: 440px) {
+  .flowra .btn:not(.no-padding).extra-large {
+    width: calc(100% - 2em);
+  }
+}
+
+.flowra .navbar.transparent a.cta {
+  visibility: hidden;
 }
 
 .flowra .ui-hero .heading {
@@ -18235,7 +18253,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .flowra .ui-hero .paragraph {
-  font-size: 2rem;
+  text-align: left;
+  color: white;
+  padding-left: 0;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 992px) {
+  .flowra .ui-hero .paragraph {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .flowra .ui-hero .paragraph {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 767px) {
+  .flowra .ui-hero .paragraph {
+    max-width: 325px;
+  }
+}
+
+@media (max-width: 575px) {
+  .flowra .ui-hero .paragraph {
+    max-width: 315px;
+  }
+}
+
+.flowra .ui-hero .paragraph li {
+  margin-bottom: 1.5rem;
+  list-style-type: none;
+  padding-left: 1.85rem;
+}
+
+.flowra .ui-hero .paragraph li:before {
+  font-family: 'FontAwesome';
+  content: "\f00c";
+  margin: 0 0.65rem 0 -2rem;
+  color: currentColor;
 }
 
 @media (max-width: 767px) {
@@ -18243,6 +18301,23 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.3rem;
     padding-left: 1em;
     padding-right: 1em;
+  }
+}
+
+.flowra .ui-hero .actions .btn {
+  margin-right: 0;
+  margin-bottom: 1em;
+}
+
+.flowra .ui-hero .laptop {
+  margin-bottom: -100px;
+}
+
+@media (max-width: 991px) {
+  .flowra .ui-hero .laptop {
+    width: calc(100% + 2em);
+    margin-left: -1em;
+    margin-right: -1em;
   }
 }
 

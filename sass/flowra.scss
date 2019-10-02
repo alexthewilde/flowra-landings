@@ -5,10 +5,32 @@
 
   .btn:not(.no-padding) {
     padding: 0.9rem 2.5rem;
+
+    &.extra-large {
+      padding: 1.4rem 4.2rem;
+      font-size: 1.45em;
+      width: 400px;
+
+      @include media-breakpoint-down(sm) {
+        width: 400px;
+      }
+
+      @media(max-width: 440px) {
+        width: calc(100% - 2em);
+      }
+    }
   }
 
-  a.extra-large {
-    transform: scale(1.5);
+  //
+  // Navigation
+  //
+
+  .navbar {
+    &.transparent {
+      a.cta {
+        visibility: hidden;
+      }
+    }
   }
 
   //
@@ -30,14 +52,66 @@
     }
 
     & .paragraph {
+      text-align: left;
+      color: white;
+      padding-left: 0;
+
+      @include media-breakpoint-up(lg) {
+        max-width: 350px;
+      }
+
+      @include media-breakpoint-down(md) {
+        max-width: 450px;
+      }
+
+      @include media-breakpoint-down(sm) {
+        max-width: 325px;
+      }
+
+      @include media-breakpoint-down(xs) {
+        max-width: 315px;
+      }
+
+      li {
+        margin-bottom: 1.5rem;
+        list-style-type:none;
+        padding-left: 1.85rem;
+
+        &:before {
+          font-family: 'FontAwesome';
+          content: "\f00c";
+          margin:0 0.65rem 0 -2rem;
+          color: currentColor;
+        }
+      }
+
       @include media-breakpoint-down(xxl) {
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
 
       @include media-breakpoint-down(sm) {
         font-size: 1.3rem;
         padding-left: 1em;
         padding-right: 1em;
+      }
+    }
+
+    .actions {
+      .btn {
+        margin-right:0;
+        margin-bottom: 1em;
+      }
+    }
+
+    .laptop {
+      margin-bottom: -100px;
+    }
+
+    @include media-breakpoint-down(md) {
+      .laptop {
+        width: calc(100% + 2em);
+        margin-left: -1em;
+        margin-right: -1em;
       }
     }
   }
