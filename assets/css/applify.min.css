@@ -18246,9 +18246,21 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
+  .flowra .ui-hero .heading {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 575px) {
   .flowra .ui-hero .heading {
     font-size: 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .flowra .ui-hero .heading {
+    font-size: 3.5rem;
   }
 }
 
@@ -18259,6 +18271,20 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
 }
 
+@media (max-width: 767px) {
+  .flowra .ui-hero .paragraph {
+    font-size: 1.3rem;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
+
+@media (max-width: 400px) {
+  .flowra .ui-hero .paragraph {
+    font-size: 1.2rem;
+  }
+}
+
 @media (min-width: 992px) {
   .flowra .ui-hero .paragraph {
     max-width: 350px;
@@ -18267,19 +18293,13 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 991px) {
   .flowra .ui-hero .paragraph {
-    max-width: 450px;
-  }
-}
-
-@media (max-width: 767px) {
-  .flowra .ui-hero .paragraph {
-    max-width: 325px;
+    max-width: 360px;
   }
 }
 
 @media (max-width: 575px) {
   .flowra .ui-hero .paragraph {
-    max-width: 315px;
+    max-width: 300px;
   }
 }
 
@@ -18296,14 +18316,6 @@ h1, h2, h3, h4, h5, h6 {
   color: currentColor;
 }
 
-@media (max-width: 767px) {
-  .flowra .ui-hero .paragraph {
-    font-size: 1.3rem;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-}
-
 .flowra .ui-hero .actions .btn {
   margin-right: 0;
   margin-bottom: 1em;
@@ -18318,6 +18330,7 @@ h1, h2, h3, h4, h5, h6 {
     width: calc(100% + 2em);
     margin-left: -1em;
     margin-right: -1em;
+    margin-bottom: -60px;
   }
 }
 
@@ -18356,7 +18369,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 400px) {
   .flowra .section .section-heading .heading.flowtime {
     font-size: 4rem;
   }
@@ -18382,7 +18395,7 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
 }
 
-@media (min-width: 481px) {
+@media (max-width: 767px) {
   .flowra #benefits .block:not(:last-of-type) {
     margin-bottom: 3em;
   }
@@ -18419,12 +18432,31 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (max-width: 767px) {
+  .flowra #steps .step-wrapper img {
+    margin-left: -15px;
+  }
+}
+
 .flowra #pricing .card-body li {
   color: #ccc;
 }
 
 .flowra #pricing .card-body li b {
   color: #333;
+}
+
+.flowra #testimonials .ui-testimonials .item .user .avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.flowra #testimonials .ui-testimonials .ui-card {
+  min-height: 147px;
+}
+
+.flowra #testimonials .ui-testimonials .ui-card:after {
+  padding-left: 20px;
 }
 
 .flowra #testimonials .ui-testimonials .ui-card p {

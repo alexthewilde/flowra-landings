@@ -39,9 +39,9 @@
 						<a href="#" data-scrollto="features">Features</a>
 					</li>
 					<!-- Nav Item -->
-					<li>
+					<!-- <li>
 						<a href="#" data-scrollto="pricing">Pricing</a>
-					</li>
+					</li> -->
 				</ul><!--.navbar-nav -->
 			</div><!--.ui-navigation -->
 
@@ -63,7 +63,7 @@
 					<div class="row">
 						<div class="col-lg-6" data-vertical_center="true">
 							<h1 class="heading animate" data-show="fade-in-up-big" data-delay="100">
-									Sing better
+									Sing better.
 							</h1>
 							<ul class="paragraph animate" data-show="fade-in-up-big" data-delay="400">
 								<li>Find inspiration from talented singers</li>
@@ -74,6 +74,7 @@
 							</ul>
 							<div class="actions animate" data-show="fade-in-up-big" data-delay="600">
 								<a href="https://www.flowra.com" class="btn extra-large ui-gradient-green shadow-xl">Start now</a>
+								<p class="ml-lg-5">Try for free. No sign up required.</p>
 							</div>
 						</div>
 						<div class="col-lg-6 animate" data-vertical_center="true" data-show="fade-in-left" data-delay="400">
@@ -195,6 +196,7 @@
           <div class="row">
             <div class="col text-center">
               <a href="https://www.flowra.com" class="btn btn-lg extra-large ui-gradient-green">Start now</a>
+							<p class="mt-3">Try for free. No sign up required.</p>
             </div>
           </div>
         </div><!-- .container -->
@@ -261,7 +263,7 @@
    		</div><!-- .section -->
 
    		<!-- Pricing Cards Section -->
-   		<div id="pricing" class="section bg-light">
+   		<div style="display:none" id="pricing" class="section bg-light">
    			<div class="container">
    				<!-- Section Heading -->
    				<div class="section-heading center">
@@ -389,8 +391,8 @@
 								<p>It's easy to get lost in Flowra for an hour because you want to nail that line</p>
 							</div>
 							<!-- User -->
-							<div class="user">
-								<div class="avatar"><img alt="Applify App Landing Page" src="../assets/img/avatars/avatar1-sm.png">
+							<div class="user d-flex align-items-center">
+								<div class="avatar"><img alt="Applify App Landing Page" src="./img/alba.png">
 								</div>
 								<div class="info">
 									<h6 class="heading text-dark-gray">Alba Pérez Urbano</h6>
@@ -405,8 +407,8 @@
 								<p>Thanks to Flowra, I feel much better prepared for my gigs now</p>
 							</div>
 							<!-- User -->
-							<div class="user">
-								<div class="avatar"><img alt="Applify App Landing Page" src="../assets/img/avatars/avatar2-sm.png">
+							<div class="user d-flex align-items-center">
+								<div class="avatar"><img alt="Applify App Landing Page" src="./img/brian.png">
 								</div>
 								<div class="info">
 									<h6 class="heading text-dark-gray">Brian O'Mahony</h6>
@@ -421,8 +423,8 @@
 								<p>Thank you for building such a humanist project!</p>
 							</div>
 							<!-- User -->
-							<div class="user">
-								<div class="avatar"><img alt="Applify App Landing Page" src="../assets/img/avatars/avatar3-sm.png">
+							<div class="user d-flex align-items-center">
+								<div class="avatar"><img alt="Applify App Landing Page" src="./img/julien.png">
 								</div>
 								<div class="info">
 									<h6 class="heading text-dark-gray">Julien Mueller</h6>
@@ -441,7 +443,7 @@
    					<!-- Form Card -->
 					<div class="ui-card color-card ui-curve form-card shadow-xl">
 						<div class="card-header ui-gradient-blue">
-							<h3 class="heading text-indigo">Today begins your<br />journey with Flowra</h3>
+							<h3 class="heading text-indigo">Try Flowra for free.<br />No sign up required.</h3>
 							<!-- <p class="paragraph">
 								Demo: Use your email address to receive the responder email.
 							</p> -->
@@ -456,26 +458,29 @@
    			<!-- Footer Copyright -->
    			<div class="footer-copyright bg-dark-gray">
    				<div class="container">
-					<div class="row">
-						<!-- Copyright -->
-						<div class="col-6">
-							<p>
-								&copy; 2019 <a href="https://www.flowra.com" target="_blank" title="Flowra">Flowra</a> All Rights Reserved
-							</p>
-						</div>
 						<!-- Social Icons -->
-						<div class="col-6 text-right social">
-							<a href="https://www.youtube.com/channel/UC124cILbMZneU61YfFRm2cw" class="btn no-padding ui-gradient-peach btn-circle shadow-md">
-								<span class="fa fa-youtube"></span>
-							</a>
-							<a href="https://instagram.com/flowra_music" class="btn no-padding ui-gradient-purple btn-circle shadow-md">
-								<span class="fa fa-instagram"></span>
-							</a>
-							<a href="https://facebook.com/flowramusic" class="btn no-padding ui-gradient-blue btn-circle shadow-md">
-								<span class="fa fa-facebook"></span>
-							</a>
+						<div class="row">
+							<div class="col text-center p-3 social">
+								<a href="https://www.youtube.com/channel/UC124cILbMZneU61YfFRm2cw" class="btn no-padding ui-gradient-peach btn-circle shadow-md">
+									<span class="fa fa-youtube"></span>
+								</a>
+								<a href="https://instagram.com/flowra_music" class="btn no-padding ui-gradient-purple btn-circle shadow-md">
+									<span class="fa fa-instagram"></span>
+								</a>
+								<a href="https://facebook.com/flowramusic" class="btn no-padding ui-gradient-blue btn-circle shadow-md">
+									<span class="fa fa-facebook"></span>
+								</a>
+							</div>
 						</div>
-					</div>
+
+						<!-- Copyright -->
+						<div class="row">
+							<div class="col text-center">
+								<p>
+									&copy; 2019 <a href="https://www.flowra.com" target="_blank" title="Flowra">Flowra</a> All Rights Reserved
+								</p>
+							</div>
+						</div>
    				</div><!-- .container -->
    			</div><!-- .footer-copyright -->
    		</footer><!-- .ui-footer -->
