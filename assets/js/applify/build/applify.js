@@ -488,7 +488,7 @@
         bounds.bottom = bounds.top + this.outerHeight();
         var winWidth = win.width();
         if (winWidth > breaks.lg) {
-            return !(viewport.bottom < bounds.top + 200 || viewport.top > bounds.bottom + 60);
+            return !(viewport.bottom < bounds.top + 100 || viewport.top > bounds.bottom + 60);
         } else {
             return !(viewport.bottom < bounds.top + 20 || viewport.top > bounds.bottom + 20);
         }

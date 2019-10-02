@@ -18425,6 +18425,10 @@ h1, h2, h3, h4, h5, h6 {
   box-sizing: border-box;
 }
 
+.flowra #steps .step-wrapper h4.heading {
+  font-size: 3.5rem;
+}
+
 @media (min-width: 768px) {
   .flowra #steps .step-wrapper {
     padding-top: 5rem;
