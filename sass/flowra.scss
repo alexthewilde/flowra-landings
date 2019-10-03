@@ -31,6 +31,17 @@
         visibility: hidden;
       }
     }
+
+    .ui-navigation {
+      .nav.navbar-nav {
+        a {
+          @include media-breakpoint-down(md) {
+            font-size: 2rem;
+            padding: 0.3rem;
+          }
+        }
+      }
+    }
   }
 
   //
@@ -112,8 +123,26 @@
       }
     }
 
+    a.ui-video-toggle {
+      span.btn {
+        position: absolute;
+        left: 417px;
+        top: 272px;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        white-space: nowrap;
+        color: #333;
+
+        @include media-breakpoint-down(md) {
+          left:50%;
+          top:50%;
+        }
+      }
+    }
+
     .laptop {
       margin-bottom: -100px;
+      margin-left: -100px;
     }
 
     @include media-breakpoint-down(md) {

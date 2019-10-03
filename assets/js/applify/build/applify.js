@@ -305,9 +305,14 @@
         var video_modal = $('<div class="video-modal modal" role="dialog"><div class="dialog container"><a class="close" data-close="modal" aria-hidden="true">×</a><div class="video-player"></div></div></div>');
         var toggle = this;
         toggle.on("click", function() {
-            var youtube_id = $(this).data("video");
+            var id = $(this).data("video");
+            var provider = $(this).data("provider");
             body.append(video_modal);
-            $(".video-modal").find(".video-player").html('<div class="video-player"><iframe src="https://www.youtube-nocookie.com/embed/' + youtube_id + '?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe></div>');
+            if (provider == "facebook") {
+                $(".video-modal").find(".video-player").html('<div class="video-player"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fflowramusic%2Fvideos%2F' + id + '%2F&width=500&show_text=false&appId=378846742303443&height=280&autoplay=1&mute=0" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe></div>');
+            } else {
+                $(".video-modal").find(".video-player").html('<div class="video-player"><iframe src="https://www.youtube-nocookie.com/embed/' + id + '?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe></div>');
+            }
             ui_modal.show($(".video-modal"));
         });
         doc.on("modal-hidden", function() {

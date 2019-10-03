@@ -18236,6 +18236,13 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
 }
 
+@media (max-width: 991px) {
+  .flowra .navbar .ui-navigation .nav.navbar-nav a {
+    font-size: 2rem;
+    padding: 0.3rem;
+  }
+}
+
 .flowra .ui-hero .heading {
   font-size: 5.5rem;
 }
@@ -18321,8 +18328,26 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1em;
 }
 
+.flowra .ui-hero a.ui-video-toggle span.btn {
+  position: absolute;
+  left: 417px;
+  top: 272px;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  white-space: nowrap;
+  color: #333;
+}
+
+@media (max-width: 991px) {
+  .flowra .ui-hero a.ui-video-toggle span.btn {
+    left: 50%;
+    top: 50%;
+  }
+}
+
 .flowra .ui-hero .laptop {
   margin-bottom: -100px;
+  margin-left: -100px;
 }
 
 @media (max-width: 991px) {
