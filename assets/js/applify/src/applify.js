@@ -36,8 +36,11 @@
  * 22      WayPoints
  * 23      Pricing Table
  *
- * ------------------------------------- Iinitialize
+ * ------------------------------------- Initialize
  * 24      Initialize Plugin & Functions
+ * 
+ * ------------------------------------- Custom
+ * 25      Set main CTA target
  */
 (function($, undefined) {
     "use strict";
@@ -851,4 +854,20 @@
             'opacity': 1
         }, 450);
     });
+
+    // --- Customer ------------------------------------------------------------
+
+    /* 25 :: Set main CTA target */
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(location.search);
+        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    };
+    var target = getUrlParameter('r')
+    if (target.length) {
+        var link = $('a.main-cta');
+        link.attr('href', 'https://www.flowra.com/' + target)
+    }
+
 }(jQuery));

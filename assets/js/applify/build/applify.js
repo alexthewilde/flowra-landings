@@ -703,4 +703,15 @@
             opacity: 1
         }, 450);
     });
+    function getUrlParameter(name) {
+        name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");
+        var results = regex.exec(location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    }
+    var target = getUrlParameter("r");
+    if (target.length) {
+        var link = $("a.main-cta");
+        link.attr("href", "https://www.flowra.com/" + target);
+    }
 })(jQuery);
