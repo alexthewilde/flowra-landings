@@ -460,6 +460,15 @@
                 });
             });
         }
+        // Load background images with standard quality only (no uhd)
+        var imagesSd = doc.find('[data-bg-sd]');
+        imagesSd.each(function() {
+            var this_img = $(this);
+            var img_src = this_img.attr('data-bg-sd');
+            this_img.css({
+                "background-image": "url('" + img_src + "')"
+            });
+        });
     }
     images_loaded();
     function images_loaded() {
