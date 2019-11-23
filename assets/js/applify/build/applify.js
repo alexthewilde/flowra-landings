@@ -308,7 +308,13 @@
             var id = $(this).data("video");
             var provider = $(this).data("provider");
             body.append(video_modal);
-            if (provider == "facebook") {
+            if (provider == "flowra") {
+                var videoHtml = '<video class="flowra-player" autoplay playsinline controls>';
+                videoHtml += '<source src="' + id + '.webm" type="video/webm" />';
+                videoHtml += '<source src="' + id + '.mp4" type="video/mp4" />';
+                videoHtml += "</video>";
+                $(".video-modal").find(".video-player").html('<div class="video-player">' + videoHtml + "</div>");
+            } else if (provider == "facebook") {
                 $(".video-modal").find(".video-player").html('<div class="video-player"><iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fflowramusic%2Fvideos%2F' + id + '%2F&width=500&show_text=false&appId=378846742303443&height=280&autoplay=1&mute=0" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe></div>');
             } else {
                 $(".video-modal").find(".video-player").html('<div class="video-player"><iframe src="https://www.youtube-nocookie.com/embed/' + id + '?rel=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe></div>');
@@ -460,11 +466,10 @@
                 });
             });
         }
-        // Load background images with standard quality only (no uhd)
-        var imagesSd = doc.find('[data-bg-sd]');
+        var imagesSd = doc.find("[data-bg-sd]");
         imagesSd.each(function() {
             var this_img = $(this);
-            var img_src = this_img.attr('data-bg-sd');
+            var img_src = this_img.attr("data-bg-sd");
             this_img.css({
                 "background-image": "url('" + img_src + "')"
             });
