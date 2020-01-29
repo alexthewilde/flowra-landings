@@ -840,8 +840,8 @@
         });
     }
     // UI Pricing Cards
-    if ($('.ui-pricing-cards').length) {
-        $('.ui-pricing-cards').ui_pricing_cards();
+    if ($('.ui-pricing-cards:not(.disabled)').length) {
+        $('.ui-pricing-cards:not(.disabled)').ui_pricing_cards();
     }
     // UI Testimonials
     if ($('.ui-testimonials').length) {

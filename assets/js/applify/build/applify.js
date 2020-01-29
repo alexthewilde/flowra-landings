@@ -698,8 +698,8 @@
             $(this).ui_device_slider();
         });
     }
-    if ($(".ui-pricing-cards").length) {
-        $(".ui-pricing-cards").ui_pricing_cards();
+    if ($(".ui-pricing-cards:not(.disabled)").length) {
+        $(".ui-pricing-cards:not(.disabled)").ui_pricing_cards();
     }
     if ($(".ui-testimonials").length) {
         $(".ui-testimonials").ui_testimonials();
