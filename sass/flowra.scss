@@ -426,3 +426,47 @@ div.start-modal-inner {
     }
   }
 }
+
+/**
+ * -- campaign-2 ---------------------------------------------------------------
+ */
+
+.flowra {
+  footer {
+    div.contact-founder {
+      margin-top: 6em;
+      margin-bottom: 6em;
+
+      h3 {
+        color: white;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        @include media-breakpoint-down(sm) {
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+
+      p {
+        font-size: 1.6em;
+        color: rgba(256,256,256,0.7);
+        @include media-breakpoint-down(sm) {
+          font-size: 1.2rem;
+          text-align: center;
+        }
+
+        a {
+          text-decoration: underline;
+        }
+      }
+
+      img.alex {
+        width: 100%;
+        border-radius: 5px;
+        @include media-breakpoint-down(sm) {
+          margin-bottom: 2rem;
+        }
+      }
+    }
+  }
+}

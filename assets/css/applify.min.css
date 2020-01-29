@@ -18576,3 +18576,51 @@ div.start-modal-inner div.col.search {
 div.start-modal-inner div.col.search div.separator {
   margin-bottom: 1em;
 }
+
+/**
+ * -- campaign-2 ---------------------------------------------------------------
+ */
+.flowra footer div.contact-founder {
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.flowra footer div.contact-founder h3 {
+  color: white;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 767px) {
+  .flowra footer div.contact-founder h3 {
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+.flowra footer div.contact-founder p {
+  font-size: 1.6em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 767px) {
+  .flowra footer div.contact-founder p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
+
+.flowra footer div.contact-founder p a {
+  text-decoration: underline;
+}
+
+.flowra footer div.contact-founder img.alex {
+  width: 100%;
+  border-radius: 5px;
+}
+
+@media (max-width: 767px) {
+  .flowra footer div.contact-founder img.alex {
+    margin-bottom: 2rem;
+  }
+}
