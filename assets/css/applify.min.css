@@ -18580,47 +18580,48 @@ div.start-modal-inner div.col.search div.separator {
 /**
  * -- campaign-2 ---------------------------------------------------------------
  */
-.flowra footer div.contact-founder {
+.flowra footer div.container.contact-founder {
+  max-width: 800px;
   margin-top: 8em;
   margin-bottom: 8em;
 }
 
-.flowra footer div.contact-founder h3 {
+.flowra footer div.container.contact-founder h3 {
+  text-align: center;
   color: white;
   font-size: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 767px) {
-  .flowra footer div.contact-founder h3 {
+  .flowra footer div.container.contact-founder h3 {
     font-size: 2rem;
-    text-align: center;
   }
 }
 
-.flowra footer div.contact-founder p {
+.flowra footer div.container.contact-founder p {
   font-size: 1.6em;
   color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 767px) {
-  .flowra footer div.contact-founder p {
+  .flowra footer div.container.contact-founder p {
     font-size: 1.2rem;
     text-align: center;
   }
 }
 
-.flowra footer div.contact-founder p a {
+.flowra footer div.container.contact-founder p a {
   text-decoration: underline;
 }
 
-.flowra footer div.contact-founder img.alex {
-  width: 100%;
+.flowra footer div.container.contact-founder img.alex {
+  width: 300px;
   border-radius: 5px;
 }
 
 @media (max-width: 767px) {
-  .flowra footer div.contact-founder img.alex {
+  .flowra footer div.container.contact-founder img.alex {
     margin-bottom: 2rem;
   }
 }
