@@ -301,6 +301,19 @@
         };
     };
     var ui_modal = doc.modal();
+    $.fn.ui_start_modal = function() {
+        var start_modal = $('<div class="start-modal modal" role="dialog"><div class="dialog container"><a class="close" data-close="modal" aria-hidden="true">×</a><div class="start-modal-container"></div></div></div>');
+        var toggle = this;
+        toggle.on("click", function() {
+            body.append(start_modal);
+            var startHtml = $("#start-modal-content").html();
+            $(".start-modal").find(".start-modal-container").html('<div class="start-modal-container">' + startHtml + "</div>");
+            ui_modal.show($(".start-modal"));
+        });
+        doc.on("modal-hidden", function() {
+            $(".start-modal").remove();
+        });
+    };
     $.fn.ui_video_player = function() {
         var video_modal = $('<div class="video-modal modal" role="dialog"><div class="dialog container"><a class="close" data-close="modal" aria-hidden="true">×</a><div class="video-player"></div></div></div>');
         var toggle = this;
@@ -696,6 +709,9 @@
     }
     if ($(".ui-app-screens").length) {
         $(".ui-app-screens").ui_app_screens();
+    }
+    if ($(".ui-start-modal-toggle").length) {
+        $(".ui-start-modal-toggle").ui_start_modal();
     }
     if ($(".ui-video-toggle").length) {
         $(".ui-video-toggle").ui_video_player();

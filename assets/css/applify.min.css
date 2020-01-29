@@ -18500,3 +18500,79 @@ h1, h2, h3, h4, h5, h6 {
 video.flowra-player {
   width: 100%;
 }
+
+.modal {
+  background-color: #242a32;
+}
+
+.modal a.close {
+  font-size: 3rem;
+}
+
+div.start-modal-inner {
+  background-color: white;
+  padding: 2em;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+div.start-modal-inner h1 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+div.start-modal-inner div.song {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+div.start-modal-inner div.img-container {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+div.start-modal-inner div.img-container a.btn {
+  position: absolute;
+  z-index: 1;
+  bottom: 1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+div.start-modal-inner div.img-container div.title {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(36, 42, 50, 0.7);
+  text-align: center;
+  padding: 2em 1em;
+  box-sizing: border-box;
+}
+
+div.start-modal-inner div.img-container div.title h2 {
+  font-size: 2em;
+  color: white;
+}
+
+div.start-modal-inner div.img-container div.title h3 {
+  font-size: 1.3em;
+  color: #a7a5a5;
+}
+
+div.start-modal-inner div.img-container div.title,
+div.start-modal-inner div.img-container img {
+  border-radius: 5px;
+}
+
+div.start-modal-inner div.col.search {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+div.start-modal-inner div.col.search div.separator {
+  margin-bottom: 1em;
+}
