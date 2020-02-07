@@ -18580,6 +18580,32 @@ div.start-modal-inner div.col.search div.separator {
 /**
  * -- campaign-2 ---------------------------------------------------------------
  */
+.flowra #pricing div.card-header div.price span.price {
+  text-decoration: line-through;
+}
+
+.flowra #pricing div.card-body {
+  font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.flowra #pricing div.card-body p.offer span {
+  color: red;
+}
+
+.flowra #pricing div.card-body div.offer.price {
+  margin-bottom: 1em;
+}
+
+.flowra #pricing div.card-body div.offer.price span.curency {
+  font-size: 1.1em;
+}
+
+.flowra #pricing div.card-body div.offer.price span.price {
+  font-size: 3.6rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
 .flowra footer div.container.contact-founder {
   max-width: 800px;
   margin-top: 8em;

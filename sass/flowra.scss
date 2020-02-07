@@ -432,6 +432,39 @@ div.start-modal-inner {
  */
 
 .flowra {
+  #pricing {
+    div.card-header {
+      div.price {
+        span.price {
+          text-decoration: line-through;
+        }
+      }
+    }
+
+    div.card-body {
+      font-family: "HurmeGeometricSans1-SemiBold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+      p.offer {
+        span {
+          color: red;
+        }
+      }
+
+      div.offer.price {
+        margin-bottom: 1em;
+
+        span.curency {
+          font-size: 1.1em;
+        }
+        span.price {
+          font-size: 3.6rem;
+          line-height: 1;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+
   footer {
     div.container.contact-founder {
       max-width: 800px;
